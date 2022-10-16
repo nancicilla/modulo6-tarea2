@@ -22,3 +22,11 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+
+### Pasos para ejecutar la base de datos  
+```
+cd .\database\
+json-server -p 5000 --watch db.json
+```
