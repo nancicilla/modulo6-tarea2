@@ -1,15 +1,26 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  
+  <MenuComponents />
+  <ProductoSeleccionadoComponents />
+  <ProductosComponents/>
+  <PieComponents footerColor="slategrey"/>
+  
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MenuComponents from './components/MenuComponents.vue'
+import PieComponents from './components/PieComponents.vue'
+import ProductoSeleccionadoComponents from './components/ProductoSeleccionadoComponents.vue'
+import ProductosComponents from './components/ProductosComponents.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    MenuComponents,
+    ProductoSeleccionadoComponents,
+    ProductosComponents,
+    PieComponents
   }
 }
 </script>
@@ -21,6 +32,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 0px;
 }
 </style>
